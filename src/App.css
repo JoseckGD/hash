@@ -1,0 +1,107 @@
+#root {
+  margin: 0;
+  padding: 0 2em;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1em;
+  border-radius: 1em;
+  margin: 2em 0;
+  width: calc(100% - 1em);
+  background-color: #1a1a1a;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.input-label {
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.button {
+  background-color: #646cff;
+}
+.button-reiniciar {
+  background-color: #ff6464;
+}
+
+.table {
+  width: calc(100% - 1em);
+  overflow-x: auto;
+  height: fit-content;
+  justify-content: start;
+}
+
+.table table {
+  overflow-x: scroll;
+}
+
+table {
+  background-color: #1a1a1a;
+  border-radius: 1em;
+}
+
+table tbody tr td {
+  padding: 0.5em 1em;
+  width: 1em;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+table tbody tr td:nth-child(1) {
+  font-weight: bold;
+  font-size: 1.1em;
+  background-color: #1a1a1a;
+}
+
+.result-text {
+  font-weight: bold;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 2em;
+  overflow-x: auto;
+}
+
+.result-label {
+  margin-right: 5px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.firstPostulateAccounting {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.buttons {
+  gap: 1em;
+}
+
+.text {
+  word-break: break-all;
+}
